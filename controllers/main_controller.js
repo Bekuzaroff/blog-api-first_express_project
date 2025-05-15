@@ -1,6 +1,6 @@
 const fs = require('fs');
 const admin_id = 'e72d443b16fea618f9c93459ee843caaa8e287ec';
-
+//КАКИЕТО ИЗМЕНЕНИЯ В КОД Я ДОБАВИЛ
 let reged_readers = JSON.parse(fs.readFileSync('./read_users.json'));
 let reged_blogers = JSON.parse(fs.readFileSync('./blog_users.json'));
 
